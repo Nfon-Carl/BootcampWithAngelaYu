@@ -1,10 +1,16 @@
 body {
   margin: 0;
-  font-family: poppins;
+  font-family: "Merriweather Sans", sans-serif;
+  text-align: center;
+}
+
+.pro {
+  text-decoration: underline;
 }
 
 h1 {
   margin-top: 0;
+  font-family: "Sacramento", cursive;
 }
 
 div.top-container {
@@ -12,26 +18,20 @@ div.top-container {
 }
 
 div.middle-container {
-  width: 150px;
-  height: 150px;
-  background-color: red;
-  position: absolute;
-  left: 150px;
-  top: 150px;
 }
 
 div.top {
-  width: 150px;
-  height: 150px;
-  background-color: blue;
-  position: absolute;
 }
 
 div.bottom-container {
-  width: 150px;
-  height: 150px;
-  background-color: yellow;
+}
+
+.bottom-cloud {
   position: absolute;
-  top: 300px;
-  left: 300px;
+}
+
+.top-cloud {
+  margin-top: 50px;
+  position: relative;
+  left: 200px;
 }
