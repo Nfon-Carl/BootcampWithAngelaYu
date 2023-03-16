@@ -4,6 +4,10 @@ body {
   text-align: center;
 }
 
+.header1 {
+  font-size: 70px;
+}
+
 .pro {
   text-decoration: underline;
 }
