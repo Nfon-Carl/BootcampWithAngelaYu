@@ -4,18 +4,27 @@ body {
   text-align: center;
 }
 
-.header1 {
-  font-size: 70px;
-}
-
 .pro {
   text-decoration: underline;
 }
 
 h1 {
+  font-size: 5.625em;
+  color: #66bfbf;
+  margin-top: 50px auto;
+  font-family: "Sacramento", cursive;
+}
+h2 {
+  font-size: 2.5em;
   color: #66bfbf;
   margin-top: 0;
-  font-family: "Sacramento", cursive;
+  font-family: "Montserrat", sans-serif;
+}
+h3 {
+  /* font-size: 16px; */
+  color: #66bfbf;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
 }
 
 div.top-container {
